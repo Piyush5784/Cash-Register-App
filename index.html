@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Cash Register</h1>
+        <p>Enter the Bill and Cash amount to get no. of Notes</p>
+        <label for="bill">Enter Bill amount</label>
+        <input type="text" id="bill" value="124554">
+        <label for="cash">Enter Cash amount</label>
+        <input type="text" id="cash" value="500">
+        <p class="error"></p>
+        <div class="btn-back">
+            <button class="btn">Check</button>
+        </div>
+        
+        <table>
+            <tr>
+                <th>No. of Notes</th>
+                <td><p class="returnNotes">0</p></td>
+                <td><p class="returnNotes">0</p></td>
+                <td><p class="returnNotes">0</p></td>
+                <td><p class="returnNotes">0</p></td>
+                <td><p class="returnNotes">0</p></td>
+                <td><p class="returnNotes">0</p></td>
+                <td><p class="returnNotes">0</p></td>
+                <td><p class="returnNotes">0</p></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
